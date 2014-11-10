@@ -42,4 +42,3 @@
         $sin=sin(($deg+$min)*M_PI/180);
         return $sin;    
     }
-?>

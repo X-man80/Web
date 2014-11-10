@@ -3,4 +3,3 @@
     {
         return isset($_GET[$name])?$_GET[$name]:$defaultValue;
     }
-?>

@@ -6,4 +6,3 @@
     //$degree=getParam("degree", 10);
     printSinTable($minute, $degree);
     include("template/foot.html");
-?>
