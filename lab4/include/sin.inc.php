@@ -29,7 +29,7 @@
             $html.="<td>{$degree}</td>";
             for($minute=0; $minute<=60; $minute+=6)
             {
-                $sin=calcSin($degree, $minute);
+                $sin=number_format(calcSin($degree, $minute), 3);
                 $html.="<td>{$sin}</td>";
             }
             $html.='</tr>';
