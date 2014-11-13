@@ -14,7 +14,7 @@
         $html.="<th>Degree\\Minute</th>";
         for($min=0; $min<=60; $min+=$minute)
         {
-            $html.="<th>{$min}</th>";
+            $html.="<th class=\"deg_min\">{$min}</th>";
         }
         $html.="</tr>";
         return $html;
@@ -22,15 +22,26 @@
 
     function getSinTableBody($minute, $degree)
     {
-        $html='';
+        $n = '1';
+		$html='';
         for($deg=0; $deg<=360; $deg+=$degree)
         {
-            $html.='<tr>';
-            $html.="<td>{$deg}</td>";
+            if ($n == '1')
+			{
+			    $background = 'odds';
+				$n = 0;
+			}
+			else
+			{
+			    $background = 'evens';
+				$n = 1;			    
+			}
+		    $html.='<tr>';
+            $html.="<td class=\"{$background}\">{$deg}</td>";
             for($min=0; $min<=60; $min+=$minute)
             {
                 $sin=number_format(calcSin($deg, $min), 3);
-                $html.="<td>{$sin}</td>";
+                $html.="<td class=\"{$background}\">{$sin}</td>";
             }
             $html.='</tr>';
         }

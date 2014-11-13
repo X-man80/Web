@@ -1,0 +1,32 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+table
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font: 12px Courier New;
+}
+
+th
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 3px;
+}
+
+tr
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 3px;
+}
