@@ -1,5 +1,5 @@
 <?php
-    if (isset($_SERVER['QUERY_STRING']))
+    if (isset($_GET['name']))
     {
         echo "Hello, Dear {$_GET['name']}!";
     }

@@ -1,0 +1,1 @@
+SELECT customer.first_name, customer.last_name, customer.passport_code, dvd.title, dvd.production_year FROM dvd, customer, offer WHERE dvd.dvd_id=offer.dvd_id AND customer.customer_id=offer.customer_id AND offer.offer_date >= '2014-01-01';
