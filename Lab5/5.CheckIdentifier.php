@@ -5,7 +5,7 @@
     }
     else
     {
-        die("There is not identifier!");
+        die("It is not identifier!");
     }
     if(empty($identifier))
     {
