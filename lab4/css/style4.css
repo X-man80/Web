@@ -59,7 +59,7 @@ html, body
 /*	margin-left: -300px;*/
 	width: 600px;
 	float: left;
-	margin-bottom: 50px; 
+/*	margin-bottom: 50px;*/ 
 }
 
 .footer
@@ -73,6 +73,12 @@ html, body
 	margin-top: -50px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.holder
+{
+    height: 50px;
+	background: rgb(255,127,39);
 }
 
 .clear
