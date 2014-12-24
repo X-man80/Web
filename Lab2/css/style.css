@@ -1,0 +1,28 @@
+p /* У всех абзацев серый фон и красный цвет */
+{
+    color: green;
+	font: 16pt Tahoma;
+	text-align: center;
+	background: url("../images/cat2.jpg") no-repeat;
+}
+      
+h1 /* Заголовок h1 синим цветом */
+{
+    color: blue;
+}	  
+
+.glamour
+{
+    color: purple;
+}
+
+#brutal
+{
+    font-weight: bold;
+}
+
+*
+{
+    margin: 0;
+	padding: 0;
+}
