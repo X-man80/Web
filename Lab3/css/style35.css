@@ -340,24 +340,27 @@
 
 .logo_bottom
 {
-
+    width: 120px;
+	margin: auto;
+	padding-top: 25px;
 }
 
 .logo_small
 {
-    margin: 25px 0px 0px 403px;
+
 }
 
 .logo_small_text
 {
 	font: 14pt Arial;
 	color: rgb(60,60,60);
-	margin: 30px 0px 0px 14px;
+	margin: 5px 0px 0px 14px;
 }
 
 .bottom_links
 {
-    margin: 20px 0px 0px 265px;
+    width: 450px;
+    margin: 20px auto 0px auto;
 }
 
 .link_bottom
